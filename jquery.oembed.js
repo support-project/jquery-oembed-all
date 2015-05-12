@@ -3,8 +3,8 @@
  *
  * Copyright (c) 2009 Richard Chamorro
  * Licensed under the MIT license
- * 
- * Orignal Author: Richard Chamorro 
+ *
+ * Orignal Author: Richard Chamorro
  * Forked by Andrew Mee to Provide a slightly diffent kind of embedding experience
  */
 (function ($) {
@@ -89,7 +89,7 @@
                             error: function () {
                                 settings.onError.call(container, resourceURL)
                             }
-                        }, settings.ajaxOptions || {});
+                        }, settings.longUrlAjaxOptions || settings.ajaxOptions || {});
 
                         $.ajax(ajaxopts);
 
@@ -135,7 +135,8 @@
         onError: function (a, b, c, d) {
             console.log('err:', a, b, c, d)
         },
-        ajaxOptions: {}
+        ajaxOptions: {},
+        longUrlAjaxOptions: {}
     };
 
     /* Private functions */
