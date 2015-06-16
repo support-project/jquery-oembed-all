@@ -253,6 +253,7 @@ Current 3rd party sources include:
 * Slideshare - oEmbed
 * ebay - Embedded
 * scribd - Embedded
+* DocumentCloud - oEmbed
 * screenr - Embedded
 * tumblr- JSONP lookup
 * imdb - JSONP lookup via imdbapi.com
