@@ -10,11 +10,9 @@
   "main": "jquery.oembed.js",
   "license": "MIT",
   "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "test",
-    "tests"
+    "examples",
+    "*.md",
+    "CHANGELOG"
   ],
   "dependencies": {
     "jquery": ">=1.4.3"
